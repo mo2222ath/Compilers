@@ -1,0 +1,72 @@
+Start StmtSeq
+Start Stmt
+Start ReadStmt
+Start Match
+[6] x (ID)
+Start Match
+[6] ; (SemiColon)
+End ReadStmt
+End Stmt
+Start Match
+[7] read (Read)
+Start Stmt
+Start ReadStmt
+Start Match
+[7] y (ID)
+Start Match
+[7] ; (SemiColon)
+End ReadStmt
+End Stmt
+Start Match
+[8] res (ID)
+Start Stmt
+Start AssignStmt
+Start Match
+[8] := (Assign)
+Start Match
+[8] x (ID)
+Start Expr
+Start MathExpr
+Start Term
+Start Factor
+Start NewExpr
+Start Match
+[8] + (Plus)
+End NewExpr
+End Factor
+End Term
+Start Match
+[8] y (ID)
+Start Term
+Start Factor
+Start NewExpr
+Start Match
+[8] ; (SemiColon)
+End NewExpr
+End Factor
+End Term
+End MathExpr
+End Expr
+End AssignStmt
+End Stmt
+Start Match
+[9] write (Write)
+Start Stmt
+Start WriteStmt
+Start Match
+[9] res (ID)
+Start Expr
+Start MathExpr
+Start Term
+Start Factor
+Start NewExpr
+Start Match
+[9]  (EndFile)
+End NewExpr
+End Factor
+End Term
+End MathExpr
+End Expr
+End WriteStmt
+End Stmt
+End StmtSeq

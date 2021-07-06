@@ -1,0 +1,9 @@
+{ Sample program
+  in TINY language
+  compute factorial
+}
+
+read x;
+read y;
+res:=x+y;
+write res

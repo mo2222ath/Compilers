@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621655303 source:c:\users\moaaz hasan\documents\c++projects\compilerstask_3_codegenerator\main.cpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+
