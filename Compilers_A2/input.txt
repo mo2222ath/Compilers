@@ -1,0 +1,17 @@
+{Test Cases}
+
+int x;     {declare  to int}
+int y;     {declare  to int}
+real a;    {declare  to double or real}
+real b;    {declare  to double or real}
+bool t;    {declare  to boolean}
+bool f;    {declare  to boolean}
+
+
+x := 2;     {assign to int}
+y := 3;     {assign to int}
+
+t := 1;    {assign to boolean}
+f := 0;    {assign to boolean}
+
+write x

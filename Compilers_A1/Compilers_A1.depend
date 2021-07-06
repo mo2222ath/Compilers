@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1622103489 source:c:\users\moaaz hasan\documents\c++projects\compilers_a1\main.cpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+

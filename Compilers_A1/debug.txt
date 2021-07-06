@@ -1,0 +1,88 @@
+Start StmtSeq
+Start Stmt
+Start AssignStmt
+Start Match
+[428] := (Assign)
+Start Match
+[428] 3 (Num)
+Start Expr
+Start MathExpr
+Start AbsDif
+Start Term
+Start Factor
+Start NewExpr
+Start Match
+[428] + (Plus)
+End NewExpr
+End Factor
+End Term
+End AbsDif
+Start Match
+[428] 5 (Num)
+Start AbsDif
+Start Term
+Start Factor
+Start NewExpr
+Start Match
+[428] - (Minus)
+End NewExpr
+End Factor
+End Term
+End AbsDif
+Start Match
+[428] 1 (Num)
+Start AbsDif
+Start Term
+Start Factor
+Start NewExpr
+Start Match
+[428] & (AbsDif)
+End NewExpr
+End Factor
+End Term
+Start Match
+[428] 3 (Num)
+Start Term
+Start Factor
+Start NewExpr
+Start Match
+[428] * (Times)
+End NewExpr
+End Factor
+Start Match
+[428] 5 (Num)
+Start Factor
+Start NewExpr
+Start Match
+[428] ; (SemiColon)
+End NewExpr
+End Factor
+End Term
+End AbsDif
+End MathExpr
+End Expr
+End AssignStmt
+End Stmt
+Start Match
+[429] write (Write)
+Start Stmt
+Start WriteStmt
+Start Match
+[429] x (ID)
+Start Expr
+Start MathExpr
+Start AbsDif
+Start Term
+Start Factor
+Start NewExpr
+Start Match
+[430]  (EndFile)
+End NewExpr
+End Factor
+End Term
+End AbsDif
+End MathExpr
+End Expr
+End WriteStmt
+End Stmt
+End StmtSeq

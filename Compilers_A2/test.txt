@@ -1,0 +1,171 @@
+GetNextToken(s)
+{Test Cases}
+
+GetNextToken(s)
+int x;     {declare  to int}
+
+IsDataType(s)
+int x;     {declare  to int}
+
+ptoken->str in dataType
+int
+GetNextToken(s)
+x;     {declare  to int}
+
+GetNextToken(s)
+;     {declare  to int}
+
+GetNextToken(s)
+{declare  to int}
+
+GetNextToken(s)
+int y;     {declare  to int}
+
+IsDataType(s)
+int y;     {declare  to int}
+
+ptoken->str in dataType
+int
+GetNextToken(s)
+y;     {declare  to int}
+
+GetNextToken(s)
+;     {declare  to int}
+
+GetNextToken(s)
+{declare  to int}
+
+GetNextToken(s)
+real a;    {declare  to double or real}
+
+IsDataType(s)
+real a;    {declare  to double or real}
+
+ptoken->str in dataType
+real
+GetNextToken(s)
+a;    {declare  to double or real}
+
+GetNextToken(s)
+;    {declare  to double or real}
+
+GetNextToken(s)
+{declare  to double or real}
+
+GetNextToken(s)
+real b;    {declare  to double or real}
+
+IsDataType(s)
+real b;    {declare  to double or real}
+
+ptoken->str in dataType
+real
+GetNextToken(s)
+b;    {declare  to double or real}
+
+GetNextToken(s)
+;    {declare  to double or real}
+
+GetNextToken(s)
+{declare  to double or real}
+
+GetNextToken(s)
+bool t;    {declare  to boolean}
+
+IsDataType(s)
+bool t;    {declare  to boolean}
+
+ptoken->str in dataType
+bool
+GetNextToken(s)
+t;    {declare  to boolean}
+
+GetNextToken(s)
+;    {declare  to boolean}
+
+GetNextToken(s)
+{declare  to boolean}
+
+GetNextToken(s)
+bool f;    {declare  to boolean}
+
+IsDataType(s)
+bool f;    {declare  to boolean}
+
+ptoken->str in dataType
+bool
+GetNextToken(s)
+f;    {declare  to boolean}
+
+GetNextToken(s)
+;    {declare  to boolean}
+
+GetNextToken(s)
+{declare  to boolean}
+
+GetNextToken(s)
+x := 2;     {assign to int}
+
+GetNextToken(s)
+:= 2;     {assign to int}
+
+GetNextToken(s)
+2;     {assign to int}
+
+GetNextToken(s)
+;     {assign to int}
+
+GetNextToken(s)
+{assign to int}
+
+GetNextToken(s)
+y := 3;     {assign to int}
+
+GetNextToken(s)
+:= 3;     {assign to int}
+
+GetNextToken(s)
+3;     {assign to int}
+
+GetNextToken(s)
+;     {assign to int}
+
+GetNextToken(s)
+{assign to int}
+
+GetNextToken(s)
+t := 1;    {assign to boolean}
+
+GetNextToken(s)
+:= 1;    {assign to boolean}
+
+GetNextToken(s)
+1;    {assign to boolean}
+
+GetNextToken(s)
+;    {assign to boolean}
+
+GetNextToken(s)
+{assign to boolean}
+
+GetNextToken(s)
+f := 0;    {assign to boolean}
+
+GetNextToken(s)
+:= 0;    {assign to boolean}
+
+GetNextToken(s)
+0;    {assign to boolean}
+
+GetNextToken(s)
+;    {assign to boolean}
+
+GetNextToken(s)
+{assign to boolean}
+
+GetNextToken(s)
+write x
+GetNextToken(s)
+x
+GetNextToken(s)
+(null)
