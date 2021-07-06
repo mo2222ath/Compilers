@@ -1,7 +1,6 @@
-Compilers Assignments
+## Compilers Assignments
 
-Assignment 1
-QUESTION 1
+# Assignment 1
 
 * Write a C++ code that does the following:
 * You are not allowed to use any built-in functions except: <cstdlib>, <cstdio>, <cstring>, <iostream>.
@@ -18,8 +17,7 @@ QUESTION 1
 
 --------------------------------------------------------------------------------------------------
 
-Assignment 2
-QUESTION 1
+# Assignment 2
 
 * Write a C++ code that does the following:
 * You are not allowed to use any built-in functions except: <cstdlib>, <cstdio>, <cstring>, <iostream>.
@@ -41,16 +39,8 @@ QUESTION 1
 * Half the mark is dedicatd to comments explaining the code before each code line (for only the part of the code which you added), test cases (at least 20 statements involving operators) that cover a lot of cases, and following the CodingStyle.pdf file.
 
 
-real should correspond to "double" --------------------------------------------------------- Done
-All variables MUST be declared at the beginning of the program ----------------------------- Done
-It is possible to use boolean variable inside the if and repeat condition. ----------------- Done
-It is not allowed to do arithmetic operations on boolean variables. ------------------------ Done
-It is not allowed to assign variables of different types. ---------------------------------- Done
 
-
-
-Assignment 3
-QUESTION 1
+# Assignment 3
 
 * Write a C++ code that does the following:
 * You are not allowed to use any built-in functions except: <cstdlib>, <cstdio>, <cstring>, <iostream>.
